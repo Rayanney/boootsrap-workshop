@@ -1,0 +1,40 @@
+  
+  .navbar{
+    position: relative;
+    z-index: 2;
+  }
+  .hero{
+    background-image: url(/images/first\ meat.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Adjust the opacity for overlay */
+    z-index: 1;
+  }
+  .second-hero{
+    position: relative;
+    z-index: 2;
+  }
+  .hero3{
+    margin-left: 40px;
+  }
+  .header{
+    font-size:50px
+
+  }
+  .img1{
+    width: 400px;
+    height: 250px;
+    margin-top: 20px;
+  }
+  
+  
